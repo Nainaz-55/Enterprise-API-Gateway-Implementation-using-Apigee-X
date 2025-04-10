@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseCache continueOnError="false" enabled="true" name="Cache-JSONPlaceholder">
+    <DisplayName>Cache-JSONPlaceholder</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <KeyFragment>jsonplaceholder</KeyFragment>
+        <KeyFragment ref="request.uri"/>
+    </CacheKey>
+    <Scope>Exclusive</Scope>
+    <ExpirySettings>
+        <TimeoutInSec>60</TimeoutInSec>
+    </ExpirySettings>
+</ResponseCache>

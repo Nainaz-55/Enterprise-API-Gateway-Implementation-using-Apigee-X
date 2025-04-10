@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging continueOnError="false" enabled="true" name="Log-JWT-Token">
+    <DisplayName>Log-JWT-Token</DisplayName>
+    <Syslog>
+        <Message>Generated JWT Token: {jwt_token}</Message>
+    </Syslog>
+</MessageLogging>

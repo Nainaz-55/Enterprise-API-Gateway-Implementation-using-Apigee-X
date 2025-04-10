@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenerateJWT continueOnError="false" enabled="true" name="Generate-JWT-Token">
+    <DisplayName>Generate-JWT-Token</DisplayName>
+    <Algorithm>HS256</Algorithm>
+    <SecretKey>
+        <Value ref="private.secretkey"/>
+        <Id/>
+    </SecretKey>
+    <Issuer>https://dev-zi7ha7vxmaao4x20.us.auth0.com</Issuer>
+    <Subject>api-client</Subject>
+    <Audience>audience1</Audience>
+    <ExpiresIn>360000</ExpiresIn>
+    <AdditionalClaims>
+        <Claim name="role">admin</Claim>
+        <Claim name="scope">read:posts</Claim>
+    </AdditionalClaims>
+    <OutputVariable>jwt_token</OutputVariable>
+</GenerateJWT>

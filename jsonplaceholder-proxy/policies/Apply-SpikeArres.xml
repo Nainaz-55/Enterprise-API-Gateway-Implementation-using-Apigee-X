@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SpikeArrest continueOnError="false" enabled="true" name="Apply-SpikeArres">
+    <DisplayName>Apply-SpikeArres</DisplayName>
+    <Rate>5ps</Rate>
+</SpikeArrest>

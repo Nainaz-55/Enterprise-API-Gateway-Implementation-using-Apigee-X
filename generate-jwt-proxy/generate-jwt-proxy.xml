@@ -1,0 +1,17 @@
+<APIProxy revision="16" name="generate-jwt-proxy">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1743870697888</CreatedAt>
+    <LastModifiedAt>1743870697888</LastModifiedAt>
+    <BasePaths>/generate-jwt</BasePaths>
+    <Policies>
+        <Policy>Generate-JWT-Token</Policy>
+        <Policy>Return-JWT</Policy>
+        <Policy>Extract-Secret</Policy>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Log-JWT-Token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+</APIProxy>

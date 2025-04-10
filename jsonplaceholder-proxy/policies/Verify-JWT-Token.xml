@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VerifyJWT continueOnError="false" enabled="true" name="Verify-JWT-Token">
+    <DisplayName>Verify-JWT-Token</DisplayName>
+    <Algorithm>HS256</Algorithm>
+    <Source>request.header.Authorization</Source>
+    <SecretKey>
+        <Value ref="private.secretkey"/>
+        <Id/>
+    </SecretKey>
+    <Issuer>https://dev-zi7ha7vxmaao4x20.us.auth0.com</Issuer>
+    <Audience>audience1</Audience>
+    <AdditionalClaims>
+        <Claim name="role">admin</Claim>
+        <Claim name="scope">read:posts</Claim>
+    </AdditionalClaims>
+</VerifyJWT>

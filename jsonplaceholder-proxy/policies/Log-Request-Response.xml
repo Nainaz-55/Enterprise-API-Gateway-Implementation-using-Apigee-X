@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging continueOnError="false" enabled="true" name="Log-Request-Response">
+    <DisplayName>Log-Request-Response</DisplayName>
+    <Syslog>
+        <Message>
+            Request: {request.uri}, Token: {request.header.Authorization}, ResponseCode: {response.status.code}
+        </Message>
+        <Host>syslog.example.com</Host>
+        <Port>514</Port>
+    </Syslog>
+</MessageLogging>

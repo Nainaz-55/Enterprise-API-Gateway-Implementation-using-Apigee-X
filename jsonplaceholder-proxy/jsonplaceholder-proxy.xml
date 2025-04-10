@@ -1,0 +1,21 @@
+<APIProxy revision="11" name="jsonplaceholder-proxy">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1743873505609</CreatedAt>
+    <LastModifiedAt>1743873505609</LastModifiedAt>
+    <BasePaths>/json</BasePaths>
+    <Policies>
+        <Policy>verify-api-key</Policy>
+        <Policy>Verify-JWT-Token</Policy>
+        <Policy>Extract-Secret</Policy>
+        <Policy>Apply-SpikeArres</Policy>
+        <Policy>Cache-JSONPlaceholder</Policy>
+        <Policy>Log-Request-Response</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
